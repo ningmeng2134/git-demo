@@ -1,5 +1,9 @@
 #include <stdio.h>
-int main(){
-    printf("Hello");
-    return 0;
+#include <stdlib.h>
+#include<string.h>
+int main() {
+	loadFile();
+	mainMenu();
+	clean();
+	return 0;  
 }
